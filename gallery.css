@@ -1,0 +1,63 @@
+body {
+    background-image: url("images/sakartvelo.png");
+}
+
+.slide {
+    margin-right: 30px;
+    background-color: white;
+    display: flex;
+    width: 370px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 6px 2px #d3cfcf;
+    border-radius: 3%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.slide img {
+    width: 370px;
+    height: 302px;
+    border-radius: 3%;
+}
+
+.slide h1 {
+    font-size: 22px;
+    color: #000000;
+    font-weight: 500;
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container1 {
+    margin-top: 100px;
+    margin-left: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.Showmore {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #6b7374;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 4px
+}
+
+.Showmore:hover {
+    background: #6b7374;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #6b7374, 0 0 25px #6b7374, 0 0 50px #6b7374, 0 0 100px #6b7374;
+}

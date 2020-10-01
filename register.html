@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgia</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Prompt:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class=" logo ">
+            <h4>Georgia</h4>
+        </div>
+        <ul class="nav-links ">
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="register.html">Register</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="tours.html ">Tours</a>
+            </li>
+            <li>
+                <a href="contact.html ">Contact</a>
+            </li>
+        </ul>
+        <div class="burger ">
+            <div class="line1 "></div>
+            <div class="line2 "></div>
+            <div class="line3 "></div>
+        </div>
+    </nav>
+    <div class="register-box">
+        <form id="user-box" method="post">
+            <h4>Name:</h4> <input type="text" name="name" size="60" required><br>
+            <h4>Surname:</h4> <input type="text" name="surname" size="60" required><br>
+            <h4 for="country">Country</h4>
+            <select id="country" name="country" required>
+                <option value="choose" >choose</option>
+                <option value="UK">UK</option>
+                <option value="USA">USA</option>
+                <option value="other">other</option>
+            </select>
+            <h4>Mail:</h4> <input type="email" name="email" size="60" required><br/>
+            <h4>Password:</h4> <input type="password" name="password" size="60" required><br/>
+            <input class="submit" type="submit" value="next" onclick="window.location.href='register1.html'" ; />
+
+        </form>
+    </div>
+    <div class="box">please register to rate us</div>
+    <script src="nav.js"></script>
+</body>

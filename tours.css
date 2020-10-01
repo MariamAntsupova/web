@@ -1,0 +1,83 @@
+body {
+    background-image: url("images/5.jpg");
+}
+
+#wrapper {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.left {
+    padding: 10px;
+    width: 20%;
+}
+
+.grey-text {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: grey;
+    font-weight: normal;
+}
+
+h2,
+h3 {
+    margin-top: 50px;
+    padding-bottom: 10px;
+    font-family: "Oswald", sans-serif;
+}
+
+p {
+    font-family: "Quicksand", sans-serif;
+}
+
+.trip_container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    opacity: 80%;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.trip_container img {
+    width: 246px;
+    height: 170px;
+    border-radius: 3%;
+}
+
+.trip_container h3 {
+    height: 70px;
+}
+
+.article {
+    width: 250px;
+    border: solid rgb(206, 202, 202);
+    border-radius: 3%;
+    margin-top: 2%;
+}
+
+.details {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #6b7374;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    margin-left: 20px;
+}
+
+.details:hover {
+    background: #6b7374;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #6b7374, 0 0 25px #6b7374, 0 0 50px #6b7374, 0 0 100px #6b7374;
+}

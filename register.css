@@ -1,0 +1,72 @@
+body {
+    background-image: url("images/3.jpeg");
+}
+
+.register-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 30px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.register-box h4 {
+    color: white;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.submit {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #b6c3c4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+}
+
+.submit:hover {
+    background: #b6c3c4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #b6c3c4, 0 0 25px #b6c3c4, 0 0 50px #b6c3c4, 0 0 100px #b6c3c4;
+}
+
+.box {
+    width: 200px;
+    height: 50px;
+    background: rgb(80, 63, 153);
+    color: #fff;
+    position: relative;
+    text-align: center;
+    padding-top: 1%;
+    animation: mymove 5s infinite;
+    border-radius: 3%;
+    opacity: 90%;
+}
+
+@keyframes mymove {
+    from {
+        top: 150px;
+    }
+    to {
+        top: 300px;
+    }
+}

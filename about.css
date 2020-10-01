@@ -1,0 +1,49 @@
+body {
+    background-image: url("images/BeFunky-collage.jpg");
+}
+
+.abgeo {
+    margin-bottom: 2%;
+}
+
+.about_georgia {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: 500px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    overflow-y: scroll;
+    margin-top: 55px;
+}
+
+.About {
+    margin-left: 20%;
+    color: white;
+}
+
+.info {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #0a0a0a;
+    font-size: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    align-items: flex-end;
+    margin-top: 570px;
+}
+
+.info:hover {
+    background: #0a0a0a;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #fff, 0 0 25px #fff, 0 0 50px #fff, 0 0 100px #fff;
+}

@@ -1,0 +1,38 @@
+body {
+    background-image: url("images/sakartvelo.png");
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    border: 5px solid black;
+    position: relative;
+    margin-top: 50px;
+}
+
+.slide {
+    display: flex;
+    width: 10%;
+    height: 500px;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 15;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 15;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
